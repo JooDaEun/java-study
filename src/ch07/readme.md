@@ -8,7 +8,7 @@
    * 자손은 조상의 모든 멤버를 상속받음 (생성자, 초기화블럭 제외)
    * 자손의 멤버 개수는 조상보다 같거나 많음
    * 자손의 변경은 조상에 영향을 미치지 않음
-   ```
+   ``` java
    class 자식클래스 extends 부모클래스 { }
    class Child extends Parent { }
    ```
@@ -17,7 +17,7 @@
 ## 포함 (Composite)
 ### 개념
  * 클래스의 멤버로 참조변수를 선언하는 것 
-```
+``` java
 class Point {
     int x;
     int y;
@@ -111,7 +111,7 @@ class Circle {
 
 ### static import문
 * static 멤버를 사용할 때 클래스 이름을 생략할 수 있게 해줌
-```
+``` java
 import static java.lang.Integer.*;   // Integer 클래스의 모든 static 메서드
 import static java.lang.Math.random; // Math.random()만. 괄호 안붙임
 import static java.lang.System.out;  // System.out을 out만으로 참조 가능
